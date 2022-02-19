@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(images/hihi.jpg) ;
+    background-size: cover;
+}
+.container1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+hr {
+    width: 1200px;
+    clear: both;
+    border-color: rgb(9, 102, 9);
+}
+header img {
+    width: 30px;
+    margin-top: 5px;
+
+}
+
+header {
+    width: 1270px;
+    height: 250px;
+    background-image: url("images/br.png");
+}
+
+header .box {
+    width: 300px;
+    height: 300px;
+
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+header .box>img {
+    width: 100%;
+    height: 100%;
+}
+
+header .box1 {
+    width: 300px;
+    height: 100px;
+    margin-left: 500px;
+}
+
+header .box1>img {
+    width: 500px;
+    float: left;
+    margin-left: -100px;
+
+}
+
+header .timkiem {
+    line-height: 70px;
+    float: right;
+    margin-top: 30px;
+    font-size: 80px;
+}
+
+nav {
+    width: 1270px;
+    padding-top: 10px;
+    height: 25px;
+    background-color: rgb(0, 0, 0);
+}
+
+.menu {
+    border: 1px #fff;
+    border-width: 1px 0;
+    list-style: none;
+    text-align: center;
+}
+
+.menu li a {
+    color: white;
+}
+
+.menu li {
+    display: inline;
+    margin: auto;
+    padding-left: 70px;
+    position: relative;
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    padding-bottom: 7px;
+    margin-top: auto;
+}
+
+.menu>a:hover {
+    text-decoration: underline;
+    color: rgb(190, 14, 14);
+
+}
+
+.menu>li:hover .smenu {
+    display: block;
+}
+
+.menu>li>a:hover {
+    color: #000;
+    background-color: rgb(62, 49, 63);
+}
+
+.smenu {
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    display: block;
+    display: none;
+}
+
+.smenu>li {
+    display: inline-block;
+    background-color: rgb(212, 212, 212);
+    border-bottom: 0px 0px rgb(202, 34, 34);
+    padding-left: 0px;
+    width: 130px;
+}
+
+.smenu>li:hover a {
+    color: rgb(34, 86, 228);
+}
+
+.aa a {
+    color: white;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    background-color: rgb(32, 50, 53);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 10px;
+    float: right;
+    margin-top: -25px;
+}
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(43, 40, 40);
+    text-align: center;
+}
+article{
+    width: 1000px;
+    margin-left: 140px;
+    background-color: rgb(175, 170, 170);
+    text-align: center;
+    border-radius: 20px;
+}
+article input{
+    width: 500px;
+    height: 30px;
+    border-radius: 20px;
+}
+article select{
+    width: 500px;
+    height: 30px;
+    border-radius: 20px;
+}
+article label{
+    font-size: 20px;
+}
+article button{
+    width: 80px;
+    height: 30px;
+}

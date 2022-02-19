@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/hihi.jpg);
+    background-size: cover;
+}
+
+hr {
+    width: 1200px;
+    clear: both;
+    border-color: rgb(9, 102, 9);
+}
+
+h3 {
+    color: rgb(247, 241, 241);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+
+.container1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header img {
+    width: 30px;
+    margin-top: 5px;
+
+}
+
+header {
+    width: 1270px;
+    height: 250px;
+    background-image: url("images/br.png");
+}
+
+header .box {
+    width: 300px;
+    height: 300px;
+
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+header .box>img {
+    width: 100%;
+    height: 100%;
+}
+
+header .box1 {
+    width: 300px;
+    height: 100px;
+    margin-left: 500px;
+}
+
+header .box1>img {
+    width: 500px;
+    float: left;
+    margin-left: -100px;
+
+}
+
+header .timkiem {
+    line-height: 70px;
+    float: right;
+    margin-top: 30px;
+    font-size: 80px;
+}
+
+nav {
+    width: 1270px;
+    padding-top: 10px;
+    height: 25px;
+    background-color: rgb(0, 0, 0);
+}
+
+.menu {
+    border: 1px #fff;
+    border-width: 1px 0;
+    list-style: none;
+    text-align: center;
+}
+
+.menu li a {
+    color: white;
+}
+
+.menu li {
+    display: inline;
+    margin: auto;
+    padding-left: 70px;
+    position: relative;
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    padding-bottom: 7px;
+    margin-top: auto;
+}
+
+.menu>a:hover {
+    text-decoration: underline;
+    color: rgb(190, 14, 14);
+
+}
+
+.menu>li:hover .smenu {
+    display: block;
+}
+
+.menu>li>a:hover {
+    color: #000;
+    background-color: rgb(62, 49, 63);
+}
+
+.smenu {
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    display: block;
+    display: none;
+}
+
+.smenu>li {
+    display: inline-block;
+    background-color: rgb(212, 212, 212);
+    border-bottom: 0px 0px rgb(202, 34, 34);
+    padding-left: 0px;
+    width: 130px;
+}
+
+.smenu>li:hover a {
+    color: rgb(34, 86, 228);
+}
+
+.aa a {
+    color: white;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    background-color: rgb(32, 50, 53);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 10px;
+    float: right;
+    margin-top: -25px;
+}
+
+article .boxn a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article .boxn {
+    border-radius: 20px;
+    font-size: 23px;
+    width: 300px;
+    height: 230px;
+    float: left;
+    margin-top: 10px;
+}
+
+article .boxn1 img {
+    width: 800px;
+    height: 230px;
+    margin-top: 10px;
+    border-radius: 40px;
+}
+
+article .boxn2 img {
+    border-radius: 40px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+article>.boxn2 {
+
+    width: 170px;
+    height: 200px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.boxn3 button {
+    width: 80px;
+    height: 25px;
+}
+article>.boxn3 {
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 650px;
+    margin-left: 700px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+article>.box>a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(119, 230, 119);
+    box-shadow: 0px 0px 5px rgb(196, 52, 52);
+}
+
+article>.box {
+    width: 200px;
+    height: 400px;
+    text-align: center;
+    float: left;
+    margin-left: 30px;
+    margin-top: -5px;
+}
+
+article>.box>img {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+footer {
+    width: 1200px;
+}
+
+footer img {
+    width: 100px;
+}
+
+footer .hihi1 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 400px;
+    float: left;
+}
+
+footer .hihi2 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 300px;
+    float: right;
+}
+
+footer .hihi3 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 5px;
+    float: left;
+    width: 400px;
+}
+
+footer .haha1 .the img {
+    width: 40px;
+}
+
+footer .haha1 {
+
+    color: white;
+    width: 33%;
+}
+
+footer .haha2 {
+    color: white;
+    width: 30%;
+    float: right;
+    margin-left: 5px;
+    margin-top: -200px;
+}
+
+footer .haha3 {
+    width: 33%;
+    color: white;
+    margin-top: -200px;
+    margin-left: 600px;
+}
